@@ -20,7 +20,7 @@ from objects import *
 from images import *
 from fonts import *
 from sounds import *
-from config import FAST_LOAD
+from config import FAST_CONNECT
 from PySide.QtCore import Qt
 import os
 
@@ -32,7 +32,7 @@ class Frame5(Frame):
     background = (255, 255, 255)
     
     def initialize(self):
-        if FAST_LOAD:
+        if FAST_CONNECT:
             values = {0: 0, 1: 0, 2: 0, 3: 0, 4: 2, 5: 0, 6: 0, 8: 0, 9: 0, 10: 0,
                 12: 1, 13: 44, 14: 0, 15: 0}
             strings = {0: u'127.0.0.1', 1: u'1203'}

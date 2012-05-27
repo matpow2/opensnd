@@ -93,7 +93,7 @@ class MainScene(QGraphicsScene):
             self.players = [Player(START_LIVES) for _ in xrange(4)]
             self.audio = AudioManager()
             start_index = 0
-            if FAST_LOAD:
+            if FAST_CONNECT:
                 start_index = 4
             self.set_frame(start_index, True)
         else:
