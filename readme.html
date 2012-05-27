@@ -1,0 +1,1012 @@
+<html>
+<head><title>Seek & Dread Online - Readme</title></head>
+<body text="#000000" link="#0000FF" alink="#0000FF" vlink="#0000FF">
+<div align="center"><img src="./Pictures/kingsonsoft.gif"></div>
+<div align="center"><img src="./Pictures/snd.gif"></div>
+<h3 align="center">Version 1.44</h3>
+<h4 align="center">Program by Kingson<br>Website by Superior<br>Tutorial by KingOfHeart/Kingson<br>Graphics by Ragey/Shade/Sonix</h4>
+<hr>
+
+<table align="center" border="0">
+<tr><td align="center"><b><u>Index</u></b></td></tr>
+<tr><td align="center"><a href="#Intro">Introduction</a><br>
+<tr><td align="center"><a href="#Controls">Default controls</a></td></tr>
+<tr><td align="center"><a href="#Console">Console commands</a></td></tr>
+<tr><td align="center"><a href="#Weapons">Weapons and equipment</a></td></tr>
+<tr><td align="center"><a href="#Connect">Connecting and options</a></td></tr>
+<tr><td align="center"><a href="#Host">How to host</a></td></tr>
+<tr><td align="center"><a href="#Solutions">Hosting solutions</a></td></tr>
+<tr><td align="center"><a href="#MapCycle">Map cycle</a></td></tr>
+<tr><td align="center"><a href="#Playing">Playing</a></td></tr>
+<tr><td align="center"><a href="#DM">Deathmatch (DM)</a></td></tr>
+<tr><td align="center"><a href="#TDM">Team-Deathmatch (TDM)</a></td></tr>
+<tr><td align="center"><a href="#LTS">Last Team Standing (LTS)</a></td></tr>
+<tr><td align="center"><a href="#NewbieTips">Tips for newbies</a></td></tr>
+<tr><td align="center"><a href="#Fair">Fair play</a></td></tr>
+<tr><td align="center"><a href="#Update">Update information</a></td></tr>
+<tr><td align="center"><a href="#Contact">Contact</a></td></tr>
+</table>
+
+
+<a name="Intro"><p><b><u>Introduction</u></b></p></a>
+
+Seek & Dread Online is a free top-down multiplayer shooter. It is similar to Counter-Strike but it is a 2D-game. You control a terrorist or a police man. You can move your character with the keyboard and aim with the mouse. In the deathmatch mode you have no friends, all that counts is that you survive. Collect firearms and grenades that appear randomly on the playfield and do not forget to refresh your health while you are in the action of heavy gunfights. In the team mode you can choose if you want to join the terrorists or the police forces. Then you can buy your equipment and start to conquer the enemy's base with your team. Planting C4 to destroy walls, flashing your enemies with flashbangs, blowing up your enemies with HE-grenades or corner them with gas grenades will help you to accomplish your mission. Due to the map editor you can create your own scenarios.
+<p>
+
+<a name="Controls"><p><b><u>Default controls</u></b></p></a>
+<table border="1" width="300px">
+<tr>
+<td width="200px">Up/down/left/right</td><td>Arrow keys</td>
+</tr>
+<tr>
+<td width="200px">Fire weapon</td><td>Mouse1</td>
+</tr>
+<tr>
+<td width="200px">Throw grenade</td><td>Mouse2</td>
+</tr>
+<tr>
+<td width="200px">Reload weapon</td><td>Shift</td>
+</tr>
+<tr>
+<td width="200px">Switch weapon</td><td>Control</td>
+</tr>
+<tr>
+<td width="200px">Shooting mode <br>(normal / headshot)</td><td>0 on numeric</td>
+</tr>
+</table>
+<br>
+<table border="1" width="300px">
+<tr>
+<td width="200px">Show score</td><td>Tab</td>
+</tr>
+<tr>
+<td width="200px">Chat</td><td>Enter</td>
+</tr>
+<tr>
+<td width="200px">Make screenshot</td><td>F8</td>
+</tr>
+<tr>
+<td width="200px">Back to Lobby(in game)</td><td>Esc or F12</td>
+</tr>
+</table>
+<hr>
+<a name="Console"><p><b><u>Console commands</u></b></p></a>
+Press Enter in game for chatmode (all commands start with "/").
+There you have the following options:
+<p><b>User commands</b></p>
+<table border="1">
+<tr>
+<td width="200px">/timeleft</td><td>displays how much time is left until map changes</td>
+</tr>
+<tr>
+<td width="200px">/nextmap</td><td>displays the next map of the map cycle</td>
+</tr>
+<tr>
+<td width="200px">//(message)</td><td>sends a message only to your team(team mode)</td>
+</tr>
+<tr>
+<td width="200px">/join police</td><td>player changes to police forces(team mode)</td>
+</tr>
+<tr>
+<td width="200px">/join terrorists</td><td>player changes to terrorists(team mode)</td>
+</tr>
+</table>
+<b>!Important!</b> Only change team when you are dead or have full health otherwise it counts as suicide.
+<p><b>Admin commands</b></p>
+<table border="1">
+<tr>
+<td width="200px">/resettime</td><td>resets time of the map cycle</td>
+</tr>
+<tr>
+<td width="200px">/kick (player-id)</td><td>kicks player with that id</td>
+</tr>
+<tr>
+<td width="200px">/ban (player-id)</td><td>bans the IP of the player with that id*</td>
+</tr>
+<tr>
+<td width="200px">/map (map-name)</td><td>map change</td>
+</tr>
+<tr>
+<td width="200px">/msg (message)</td><td>sends a noticeable message to all players</td>
+</tr>
+<tr>
+<td width="200px">/restart</td><td>restarts the current round and resets game score, weapons, money, time (lts mode only)</td>
+</tr>
+<tr>
+<td width="200px">/closecon</td><td>the server does not accept new connections, this cannot be activated again</td>
+</tr>
+</table>
+*the IP is banned until you close the server
+
+<a name="Weapons"><p><b><u>Weapons and equipment</u></b></p></a>
+<i>The damage details below are for normal shooting mode. Headshots do triple damage!</i>
+<table border="1">
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/1.gif" alt="Glock 19C"></td>
+<td><b><u>Glock 19C</u></b><br>
+Damage: 6-16<br>
+Rounds: 15<br>
+Fire rate: 420 ms<br>
+Reload time: 3400 ms<br>
+Recoil: 15<br>
+Range: 480<br>
+Price: - $<br>
+Ammo price: - $
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/2.gif" alt="SIGP 228"></td>
+<td><b><u>SIGP 228</u></b><br>
+Damage: 9-18<br>
+Rounds: 13<br>
+Fire rate: 500 ms<br>
+Reload time: 3600 ms<br>
+Recoil: 16<br>
+Range: 400<br>
+Price: - $<br>
+Ammo price: - $
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/3.gif" alt="Desert Eagle"></td>
+<td><b><u>Desert Eagle</u></b><br>
+Damage: 18-27<br>
+Rounds: 7<br>
+Fire rate: 480 ms<br>
+Reload time: 3000 ms<br>
+Recoil: 20<br>
+Range: 420<br>
+Price: 1200$<br>
+Ammo price: 40$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/4.gif" alt="Benelli M1"></td>
+<td><b><u>Benelli M1</u></b><br>
+Damage: 14-67<br>
+Rounds: 8<br>
+Fire rate: 800 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 30<br>
+Range: 400<br>
+Price: 1300$<br>
+Ammo price: 60$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/5.gif" alt="MP-5"></td>
+<td><b><u>MP-5</u></b><br>
+Damage: 8-18<br>
+Rounds: 30<br>
+Fire rate: 300 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 14<br>
+Range: 450<br>
+Price: 1500$<br>
+Ammo price: 50$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/6.gif" alt="Galil"></td>
+<td><b><u>Galil</u></b><br>
+Damage: 14-23<br>
+Rounds: 25<br>
+Fire rate: 240 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 17<br>
+Range: 450<br>
+Price: 2000$<br>
+Ammo price: 50$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/7.gif" alt="SVD"></td>
+<td><b><u>SVD</u></b><br>
+Damage: 11-27<br>
+Rounds: 10<br>
+Fire rate: 320 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 20<br>
+Range: 800<br>
+Price: 2300$<br>
+Ammo price: 80$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/8.gif" alt="AK-47"></td>
+<td><b><u>AK-47</u></b><br>
+Damage: 10-21<br>
+Rounds: 30<br>
+Fire rate: 240 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 14<br>
+Range: 500<br>
+Price: 2000$<br>
+Ammo price: 75$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/9.gif" alt="Colt M4A1"></td>
+<td><b><u>Colt M4A1</u></b><br>
+Damage: 17-28<br>
+Rounds: 30<br>
+Fire rate: 280 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 22<br>
+Range: 500<br>
+Price: 2500$<br>
+Ammo price: 75$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/10.gif" alt="G3A3"></td>
+<td><b><u>G3A3</u></b><br>
+Damage: 22-33<br>
+Rounds: 20<br>
+Fire rate: 440 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 27<br>
+Range: 500<br>
+Price: 2800$<br>
+Ammo price: 100$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/11.gif" alt="SR-60"></td>
+<td><b><u>SR-60</u></b><br>
+Damage: 35-51<br>
+Rounds: 4<br>
+Fire rate: 1000 ms<br>
+Reload time: 4000 ms<br>
+Recoil: 50<br>
+Range: 800<br>
+Price: 3000$<br>
+Ammo price: 75$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/12.gif" alt="AW-50 Sniper"></td>
+<td><b><u>AW-50 Sniper</u></b><br>
+Damage: 52-120<br>
+Rounds: 1<br>
+Fire rate: 4000 ms<br>
+Reload time: 3200 ms<br>
+Recoil: 50<br>
+Range: 800<br>
+Price: 3800$<br>
+Ammo price: 30$
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/13.gif" alt="Gas grenade"></td>
+<td><b><u>Gas grenade</u></b><br>
+Damage: 25-28<br>
+Price: 200$<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/14.gif" alt="HE grenade"></td>
+<td><b><u>HE grenade</u></b><br>
+Damage: 50-55<br>
+Price: 350$<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/15.gif" alt="C4"></td>
+<td><b><u>C4</u></b><br>
+Damage: 50-110<br>
+Price: 400$<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/16.gif" alt="Flashbang"></td>
+<td><b><u>Flashbang</u></b><br>
+Damage: 0<br>
+Price: 350$<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/17.gif" alt="Medipack"></td>
+<td><b><u>Medipack</u></b><br>
+Heal: 40<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/18.gif" alt="Molotov Cocktail"></td>
+<td><b><u>Molotov Cocktail</u></b><br>
+Damage: 18-100<br>
+Price: 700$<br>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center"><img src="./Pictures/19.gif" alt="Smoke grenade"></td>
+<td><b><u>Smoke grenade</u></b><br>
+Damage: 0<br>
+Price: 300$<br>
+</td>
+</tr>
+</table>
+
+<a name="Connect"><p><b><u>Connection and Options</u></b></p></a>
+
+At the start of the game you need to enter your name. The name must have at least five characters and can only have up to fifteen characters. You can choose from A to Z and 1 to 9. You may also use these special chraracters: -!$+*_'#[]/\|. To Connect click on the connect button. After you connected you will find yourself in the lobby and there you have different options to choose from.
+
+<p><b>Options</b></p>
+
+<table border="1" width="600px">
+<tr>
+<td width="100px">Connect</td><td>After left clicking on a server this allows you to connect to the server. You can also double click on a server to connect to it.</td>
+</tr>
+<tr>
+<td width="100px">Connect to IP</td><td>Here you can join a server by entering the IP and port of the server.</td>
+</tr>
+<tr>
+<td width="100px">Get Server List</td><td>Use this to update the server list so it's more accurate. However, the amount of players in a server will only update every five minutes.</td>
+</tr>
+<tr>
+<td width="100px">Options</td><td>This is where you can set your options for the game.<br>
+<ul>
+<li>Controls (Change default controls but not mouse)</li>
+<li>Music (On/Off)</li>
+<li>Change start weapon (SIGP 228 or GLOCK 19C )</li>
+<li>Turning Speed (Change how fast your aimer moves when turning)</li>
+<li>Graphics (Change your graphics level.)</li>
+<li>Music Volume (Change how low/high Music Volume)</li>
+<li>Skin (Normal, Police, Terrorist)</li>
+<li>Footsteps (On/Off)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="100px">Join Chat</td><td>Will let you join the irc channel #sndo. Please respect the rules and staff (%,@,&,~) of #sndo.</td>
+</tr>
+<tr>
+<td width="100px">Host a Game</td><td>This is the option for hosting a game if you meet the hosting requirements.</td>
+</tr>
+<tr>
+<td width="100px">Exit Game</td><td>Will make you exit the SND Program.</td>
+</tr>
+
+</table>
+
+<a name="Host"><p><b><u>How to host</u></b></p></a>
+
+Some of you will be able to host easily while others will have to configure their router and firewall first. To host a game choose "Host a Game". There are many buttons/fields to choose from and here is a list of all of them with a description.<p>
+
+<p><b>Fields/Buttons</b></p>
+
+<table border="1" width="600px">
+<tr>
+<td width="100px">Server Name</td><td>Choose any name for your server name to be called for other players to see. You can not have spaces so just use _ instead. Six characters minimum and twenty characters max for the name.</td>
+</tr>
+<tr>
+<td width="100px">Host on port</td><td>Standard is 1203 and 1204 but you are free to choose.</td>
+</tr>
+<tr>
+<td width="100px">Max Players</td><td>Amount of maximum players on your server.</td>
+</tr>
+<tr>
+<td width="100px">MOTD</td><td>Message Of The Day. This is the message players will first see when they join your server. Spaces are allowed for the message.</td>
+</tr>
+<tr>
+<td width="100px">Weapons</td><td>Choose what weapons you want to enable/disable. To find out about the weapons details check out <a href="#Weapons">Weapons and equipment.</td>
+</tr>
+<tr>
+<td width="100px">Password</td><td>Choose to have a passwpord, and what the password should be. Anyone who does not know the password can not join your server.</td>
+</tr>
+<tr>
+<td width="100px">Map Sending</td><td>Allow or deny clients to download the current map from your server.</td>
+</tr>
+<tr>
+<td width="100px">Map cycle</td><td>This reads your mapcycle.txt file and loads those maps. More information about <a href= "#MapCycle">map cycle</a></td>
+</tr>
+<tr>
+<td width="100px">Map</td><td>Choose what map to host. If you are not sure try asking around on what members want you to host.</td>
+</tr>
+<tr>
+<td width="100px">Hide Server</td><td>If you do not want that your server is shown in the server list, activate this. Other players must use "Connect to IP" to join your server.</td>
+</tr>
+</table>
+
+<p><b>Options</b></p>
+
+<table border="1" width="600px">
+<tr>
+<td width="100px">Host</td><td>Choose this for hosting. If you recieve an error then you made an error with one of your fields. Read the error message carefuly to try to fix the problem.</td>
+</tr>
+<tr>
+<td width="100px">Server List</td><td>Exits the hosting option and go back to the main menu with the Server List.</td>
+</tr>
+<td width="100px">Exit Game</td><td>Will make you exit the SND Program.</td>
+</tr>
+</table>
+
+<a name="Solutions"><p><b><u>Hosting Solutions</u></b></p></a>
+
+Once your hosted check to see if anyone can join your server. If they tell you that they can't then your going to need to try certain methods to fix the problem. 
+
+<p><b>Firewall</b></p>
+<ul>
+<li> Open your firewall.</li>
+<li>Go to where it says Ports.</li>
+<li>Click on open ports.</li>
+<li>Write ports 80, 1203 and 1204 TCP. With some firewalls just browse for the SND Program and tell it not to block it.</li>
+</ul>
+
+<p><b>Router</b></p>
+If you're using a router with the default configuration you wont be able to host games so you need to forward or "open" the port of the game.
+(Snd uses ports 1203 and 1204 on default and as protocol TCP )
+
+Here is a To Do description for relative new DLINK-Routers, for other routers it might be similar:
+
+<ul>
+<li>Open your web browser and enter the IP address of your router (192.168.0.1). Enter username (admin) and your password. Call your service provider to get the router if this does not connect.</li>
+<li>Click on Advanced and then click Virtual Server.</li>
+<li>Create a new entry:</li>
+<li>Click Enabled.</li>
+<li>Enter a name (Snd).</li>
+<li>Private IP - Enter the IP address of the computer you want to host the game.</li>
+<li>Select TCP for Protocol Type</li>
+<li>Enter 1203 and 1204 for both Private Port and Public Port</li>
+<li>Click Always or set a schedule.</li>
+<li>Click Apply and then Continue.</li>
+</ul>
+
+<a name="MapCycle"><p><b><u>Map cycle</u></b></p></a>
+To activate the map cycle check the box in the host menu.
+To edit it open the file mapcycle.txt with a text editor.
+The first line is the time in minutes which will be spend on every map.
+After that line you can add maps to the map cycle and seperate them with break line.
+The last line must be empty. Look at all your maps that you have and place the map's name on one of the lines. Do not use the file extention *.sdo. If the name is "lts_bunkers.sdo" then name it "lts_bunkers". If you place in a map you do not have it will ignore it and move to the next line or back to the begining again. The first line must be a map you have. If you do not have that map or typed it wrong you will basicly get a black screen.  Map Cycleing is a good way to have players play on different maps and see who can score the most within the map time. Once the map is changed all scores and teams are reseted.
+
+<a name="Playing"><p><b><u>Playing</u></b></p></a>
+
+When hosting or playing on someone's server there are a few things you should know about. There are three types of games first of all. DM - Deathmatch, TDM - Team-Deathmatch and LTS - Last Team Standing. Information about these games are covered later on. On the top left it shows "1. Weapon" and "2. Weapon". The 1 is for the default weapon "SIGP 228" or "GLOCK 19C". The 2 is for the secondary weapon. The second weapon you will have to pick up or buy. These weapons have a limited amount of ammo. The current weapon you are useing will be highlighted in blue. When you run out of ammo the gun will automatically reload if you got enough ammo otherwise switch your weapons. At the top of the screen your current ammo will be shown for the current weapon you are using. Below that there is a health bar. In TDM and LTS games on the top right it will show the scores for police and terrorists. The bottom left corner will display the ingame chat. There are two shooting modes: red (normal mode) and blue (headshot mode). Headshot mode makes 3x more damage but you can only hit their heads. By pressing the tab key you can see all the players in the game, IDs, scores, and who's currently in the lead.
+
+<a name="DM"><p><b><u>Deathmatch (DM)</u></b></p></a>
+
+A Deathmatch game is a type of game where you just kill anyone that you can. This is a good type of game for newbies to start with since it does not take much skill. You get to learn about the different weapons. While playing on this map crates, grenades and health packs will appear randomly on the playfield. The crates contain random weapons. However, if a host blocked certain weapons then it will not appear in these crates. Health packs will heal you by 40 hitpoints. If you pick up a grenade it will either be a "Gas Grenade" or a "HE Grenade". If you die then you have to wait five seconds. Then when your ready to fight again you need to press the "Space Bar". 
+
+<a name="TDM"><p><b><u>Team-Deathmatch (DM)</u></b></p></a>
+
+A Team-Deathmatch game is exactly like a Deathmatch except it's played with teams. This is good for newbies who want to try to play on a team. If your on the police side you need to kill a terrorist. If your on the terrorist side you need to kill the police. If you kill one of your own teammate you will lose two points from your score. The more you kill your own teammates the bigger the chance to get banned. So this will help your team playing skills.
+
+<a name="LTS"><p><b><u>Last Team Standing (LTS)</u></b></p></a>
+
+Last Team Standing is where a lot of skilled players play. As a newbie your free to play it but you should at least be skilled enough to not kill your teammates. There are two teams, Police and Terrorists. In a TDM game you get the same weapons for either side. In a LTS game this is true except for "Flashbang" and "HE Grenades". In a LTS game the round does not end until there is only one team standing. This is another reason to be a bit skilled, otherwise you might get bored of waiting for the next round. In this type of game you buy your weapons, grenades and ammo at the begining of the round. You start with $1,500 and each round you get the same amount. If you manage to kill someone you get a $500 bonus for each player you kill. If you kill your own teammate you lose all your money and two points. If you die in a round you just lose your weapon.
+
+<a name="NewbieTips"><p><b><u>Tips for newbies</u></b></p></a>
+
+As a newbie you might have some problems killing, aiming or just need some advice. This section is to give you a few tips to help you improve your skills. Here are ten tips to help you play better.
+
+<p><b>Top 10 Tips</b></p>
+<ul>
+<li>Using headshots can only be used to aim at their heads
+and kill them faster. However it's harder to kill when moving. So use normal mode when they are low or you are missing a lot.</li>
+<li>Know your weapons. Learn to recognize what sound each weapon makes- it's (almost) the only way you can tell what guns others have. Also know how each weapon works and its strenghts and weaknesses (ex. usually you shouldnt rush someone if they have a Shotgun)</li>
+<li>Whenever you get a chance to hit a leg or what ever may be exposed, shoot.</li>
+<li>In order to win, learn the tricks of the map. Learn the most efficient places to plant C4 and where the best places to throw flashbangs are to ricochet off of the walls.</li>
+<li>Camp, camp camp. As a newbie go ahead. As long as your not killing many players usually they will not ban you yet. As you get better though try to do this constantly but you still can. If both players camp then try to find a spot where they'll be willing to move so you have a fair chance at killing them.</li>
+<li>If you are stuck against snipers, use the sniper rifle's poor reload time to your advantage and attack during the reloading period. This way, you can defeat even the sharpest of snipers.</li>
+<li>If you are trying to move and shoot, you'll probably miss. If you want overall accuracy, stay still, click to fire, don't hold and fire. Instead click when your ready to aim and shoot. Sometimes if your opponent misses enough this is a great time to take your time and kill them.</li>
+<li>Find a friend or someone who is not too skilled and get them to host. You should then practice your aiming on them. Be sure to try to do long shots, close up, headshots, and normal in as little shots as you can.</li>
+<li>Try not to use SR. It has low bullets, long time reloading and you can only shoot every 2-3 seconds after you just shot. Only use SR60 if you are an experienced player that can use HS successfully.</li>
+<li>Headshooting is what seperates the newbies from the pros.</li>
+
+<a name="Fair"><p><b><u>Fair play</u></b></p></a>
+
+In almost any game there will be players who will cheat/hack, team kill, curse or annoy. The question is what should you do or not to do. You should never try to sink to their level. If you do then your just as bad as them. If your hosting the game feel free to kick or ban them from your server. If someone is hacking or cheating please contact KingOfHeart. If KingOfHeart is not around then contact Kingson and give as much detail as possible. If you know how to cheat or hack then please report it and keep it to yourself. Certain cheats can spread fast if it's easy to do. If your just a regular player and you don't like what's happening in a game then either leave or deal with it. If someone is team killing everyone it's best not to team kill them back. Just try to get the hosts attention to get them removed or switch teams. If you kill back and the host is not paying much attention you'll be the one that ends up getting banned. Just follow this advice and you will be respected. If you follow none of these rules then one day you just might find yourself removed from the game.
+
+<a name="Update"><p><b><u>Update information</u></b></p></a>
+
+
+<p><b>Version 1.44</b></p>
+<ul>
+<li>Uzi and XM8 replaced with Galil and SVD</li>
+<li>smoke grenade added</li>
+<li>molotov cocktail added</li>
+<li>player gets invisible bug fixed</li>
+<li>morphing gas grenade bug fixed</li>
+<li>beeping sound bug fixed</li>
+<li>hide server option</li>
+<li>connect to IP option</li>
+<li>net code optimized</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.43</b></p>
+<ul>
+<li>net code improved</li>
+<li>connection bug fixed</li>
+<li>map change bug fixed</li>
+<li>SR60 changed</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.42</b></p>
+<ul>
+<li>net code rewritten from scratch for better perfomance and security</li>
+<li>server list redone for better security</li>
+<li>map sending option for servers</li>
+<li>more precise health bar</li>
+<li>headshot hit boxes corrected</li>
+<li>crates do not disappear when a player joins</li>
+<li>destroyed walls will show up for new players</li>
+<li>fixed a flashbang bug</li>
+<li>secure map check</li>
+<li>AW50-Sniper and SR60 changed</li>
+<li>footsteps</li>
+<li>some new sound effects added</li>
+<li>some small additions</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.41</b></p>
+<ul>
+<li>statistics saving</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.40</b></p>
+<ul>
+<li>shooting mode: headshot</li>
+<li>illegal kill assignment fixed</li>
+<li>server list changed</li>
+<li>some graphics changed</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.39</b></p>
+<ul>
+<li>new ID allocation system</li>
+<li>ID higher than 999 bug fixed</li>
+<li>net-code improved</li>
+<li>only accurate shots of AW-50 Sniper are deadly</li>
+<li>some graphics changed</li>
+<li>new backgrounds added</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.382</b></p>
+<ul>
+<li>dead reckoning bug fixed</li>
+<li>removing forbidden characters when connecting to IRC-server</li>
+</ul>
+<p><b>Version 1.381</b></p>
+<ul>
+<li>fixes a lag issue appeared in 1.38</li>
+<li>dead reckoning improved</li>
+</ul>
+<p><b>Version 1.38</b></p>
+<ul>
+<li>old chat replaced with IRC-client</li>
+<li>net-code improved</li>
+<li>map cycle fixes and additions</li>
+<li>new commands</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.37</b></p>
+<ul>
+<li>mouse aiming improved</li>
+<li>object layer improved</li>
+<li>obstacle collisions improved</li>
+<li>map cycle</li>
+<li>new commands</li>
+<li>dynamic dns support</li>
+<li>equipment price bug fixed</li>
+</ul>
+<p><b>Version 1.36</b></p>
+<ul>
+<li>automatic map download fixed</li>
+<li>lts mode fixed</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.35</b></p>
+<ul>
+<li>mode: team deathmatch (tdm)</li>
+<li>small obstacles have a chance to block bullets
+ (depends on how good the shot was aimed)</li>
+<li>new tiles added</li>
+<li>some weapon abilities changed</li>
+</ul>
+<p><b>Version 1.34</b></p>
+<ul>
+<li>some weapon abilities changed</li>
+<li>blood effect improved</li>
+<li>net-code slightly improved</li>
+<li>Glock double damage bug fixed</li>
+<li>health indicator added</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.33</b></p>
+<ul>
+<li>3 new weapons(IMI UZI, XM8, SR-60)</li>
+<li>some gameplay changes</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.32</b></p>
+<ul>
+<li>net-code optimized</li>
+<li>fixed a music bug</li>
+<li>several bugfixes</li>
+</ul>
+<p><b>Version 1.31</b></p>
+<ul>
+<li>fixed several bugs with grenades</li>
+<li>score board refresh bug fixed</li>
+<li>score is sorted by kills and deaths</li>
+<li>graphic effects improved</li>
+<li>explosions are smaller</li>
+<li>reborn bug fixed</li>
+<li>better lag handling</li>
+<li>rare flash through wall bug fixed</li>
+</ul>
+<p><b>Version 1.30</b></p>
+<ul>
+<li>net-code optimized</li>
+<li>screenshot function</li>
+<li>secure server listing</li>
+<li>ban command</li>
+<li>some gameplay changes</li>
+<li>player gets stuck bug fixed</li>
+<li>rain removed</li>
+<li>some graphic effects can be disabled</li>
+<li>fixed some map change bugs</li>
+<li>flashbang does not flash out of the screen</li>
+<li>registration removed</li>
+<li>perfomance slightly improved</li>
+<li>some graphic errors fixed</li>
+</ul>
+<p><b>Version 1.29</b></p>
+<ul>
+<li>dedicated server support</li>
+<li>server password option</li>
+<li>some gameplay changes</li>
+<li>music improved</li>
+<li>respawn when pressing space</li>
+<li>fixed team chat command</li>
+<li>some general bugfixes</li>
+</ul>
+<p><b>Version 1.28</b></p>
+<ul>
+<li>automatic map download</li>
+<li>team chat</li>
+<li>clan support fixed</li>
+<li>you can hear other players reloading</li>
+<li>when you get flashed your screen turns white</li>
+<li>shoot through wall bug fixed</li>
+<li>score board update bug fixed</li>
+<li>when last survivor of a team leaves no win for other team fixed</li>
+<li>player shadows added</li>
+<li>sound improved (DirectX 8.0 required)</li>
+<li>fixed a memory leak</li>
+<li>grenade throw bug fixed</li>
+<li>SIGP ammo reset bug fixed</li>
+<li>some general bugfixes</li>
+</ul>
+<p><b>Version 1.27</b></p>
+<ul>
+<li>score bug fixed</li>
+<li>grenades sound volume corrected</li>
+<li>black background bug fixed</li>
+<li>new chat server</li>
+<li>clan support</li>
+<li>C4 added</li>
+<li>Flashbang added</li>
+<li>grenade bug fixed</li>
+<li>fixed a map change bug</li>
+<li>score board updates automatically</li>
+<li>on team change players are invisible for a short moment fixed</li>
+<li>some general bugfixes</li>
+</ul>
+<p><b>Version 1.26</b></p>
+<ul>
+<li>team mode: last team standing (lts)</li>
+<li>some general bugfixes</li>
+<li>new commands</li>
+<li>exclamation mark is displayed when chatting</li>
+<li>memory management improved</li>
+<li>mouse aiming improved</li>
+<li>no health refresh on map change fixed</li>
+<li>police and terrorist skin added</li>
+<li>smoother character walking</li>
+</ul>
+<p><b>Version 1.25</b></p>
+<ul>
+<li>game server perfomance improved</li>
+<li>new server listing system</li>
+<li>server listing is based on a more reliable server</li>
+<li>database and scripts moved to a faster server</li>
+<li>score board improved</li>
+<li>Mp5 accuracy slightly increased</li>
+<li>shoot through obstacles bug fixed</li>
+<li>player limit bug fixed</li>
+<li>death animation added</li>
+<li>new commands</li>
+<li>mouse aiming improved</li>
+</ul>
+<p><b>Version 1.24</b></p>
+<ul>
+<li>invisible nade bug fixed</li>
+<li>full 0.6 map support</li>
+<li>gate tile bug fixed</li>
+<li>sniper clips decreased to 2</li>
+<li>score board bugs fixed</li>
+<li>Benelli bug fixed</li>
+</ul>
+<p><b>Version 1.23</b></p>
+<ul>
+<li>respawning improved</li>
+<li>map change command</li>
+<li>ammo changed</li>
+<li>sniper bug fixed</li>
+<li>cough sound effect added</li>
+<li>net-code optimized</li>
+<li>flickering objects bug fixed</li>
+<li>right configured routers can host</li>
+<li>sniper is less accurate when moving</li>
+<li>mouse aiming improved</li>
+<li>new point system</li>
+<li>server list bug fixed</li>
+<li>some general bugfixes</li>
+<li>direction sending improved</li>
+<li>pistols have smaller muzzle flash</li>
+<li>turning speed maximum increased to 99</li>
+</ul>
+<p><b>Version 1.22</b></p>
+<ul>
+<li>weapon damage, recoil increased - aim time decreased</li>
+<li>on disconnect show score</li>
+<li>command system added</li>
+<li>walking animation error fixed</li>
+<li>sometimes wrong shooting directions were send fixed</li>
+<li>dead reckoning improved</li>
+<li>user registration</li>
+<li>mouse aiming improved</li>
+<li>rain bug fixed</li>
+<li>some sound issues fixed</li>
+<li>afterlife gun bug fixed</li>
+<li>crate with nonworking-gun bug fixed</li>
+<li>disappearance of background fixed</li>
+</ul>
+<p><b>Version 1.21</b></p>
+<ul>
+<li>2 new weapons(SIGP 228, Colt M4A1)</li>
+<li>old graphics replaced</li>
+<li>more precise background collisions</li>
+<li>custom map support</li>
+<li>better connecting to server</li>
+<li>sound distance effect</li>
+<li>you can define grenades range</li>
+<li>health is saved on server</li>
+<li>server side hit-testing</li>
+<li>better chat system</li>
+<li>score-board</li>
+<li>no score bug fixed</li>
+<li>chat name color</li>
+<li>you can configure controls</li>
+<li>new menu</li>
+<li>mouse aiming</li>
+<li>changes in server settings</li>
+<li>faster bullets</li>
+<li>inaccuracy</li>
+</ul>
+<p><b>Version 1.20</b></p>
+<ul>
+<li>real hosting</li>
+<li>lobby and server list in one screen</li>
+<li>some internal changes</li>
+<li>safer and faster connecting to game servers</li>
+<li>friendly fire bug fixed</li>
+<li>new command: close server</li>
+</ul>
+<p><b>Version 1.19</b></p>
+<ul>
+<li>run through obstacles fixed</li>
+<li>after reaching a limit, nextmap displayed</li>
+<li>some general bugfixes</li>
+</ul>
+<p><b>Version 1.18</b></p>
+<ul>
+<li>mapcycle added</li>
+<li>score limit added</li>
+<li>time limit added</li>
+<li>team chat command</li>
+<li>map change command changed (/map ?)</li>
+<li>map change also works when player recently joined</li>
+<li>some bugfixes in ctf</li>
+<li>new GUI</li>
+<li>better hit-boxes</li>
+<li>explonsions swirl players through the air</li>
+<li>optimized code</li>
+<li>blood stay option</li>
+<li>some maps removed because of bugs</li>
+<li>directx support(no window mode anymore)</li>
+<li>teleport bug removed</li>
+</ul>
+<p><b>Version 1.17</b></p>
+<ul>
+<li>1 new map(tdm_war)</li>
+<li>some bugfixes in capture the flag</li>
+<li>join no team bug fixed</li>
+<li>server name can begin with a number</li>
+<li>explosion bug in dm_desert fixed</li>
+<li>second reload key added (Y)</li>
+<li>updated cncs232.dll</li>
+</ul>
+<p><b>Version 1.16</b></p>
+<ul>
+<li>explosions cause a little quake</li>
+<li>some bugfixes in capture the flag</li>
+<li>server verification</li>
+<li>player cannot run through water anymore</li>
+<li>die bug in dm_winter fixed</li>
+</ul>
+<p><b>Version 1.15</b></p>
+<ul>
+<li>friendly fire server option</li>
+<li>rain and snow added</li>
+<li>player invisble fixed</li>
+<li>moving on respawn fixed</li>
+<li>dedicated server bug fixed</li>
+<li>reload bug in lt_house fixed</li>
+</ul>
+<p><b>Version 1.14</b></p>
+<ul>
+<li>players can strafe (Ctrl is now strafing and - is reloading)</li>
+<li>hit teammates with shotgun fixed</li>
+<li>score tag bug fixed</li>
+<li>stuff in server list added</li>
+</ul>
+<p><b>Version 1.13</b></p>
+<ul>
+<li>grenade bug fixed</li>
+<li>real 3d environment</li>
+<li>shotgun has a spreading</li>
+</ul>
+<p><b>Version 1.12</b></p>
+<ul>
+<li>automatic server check</li>
+<li>die animation has the correct color</li>
+<li>overlayer</li>
+<li>change team bug fixed</li>
+<li>some bugfixes in LTSB</li>
+</ul>
+<p><b>Version 1.11</b></p>
+<ul>
+<li>restart command in CTF added</li>
+<li>name and score tag have the color of the team</li>
+<li>fullscreen and windowed mode added</li>
+<li>crosshair for AW50 Sniper added</li>
+<li>text faces changed</li>
+</ul>
+<p><b>Version 1.10</b></p>
+<ul>
+<li>player left/joined bug in ctf fixed</li>
+<li>team wins without reason on a slow host fixed</li>
+<li>shadow-errors fixed</li>
+<li>better way to count number of players</li>
+<li>player cannot move after respawn fixed</li>
+</ul>
+<p><b>Version 1.09</b></p>
+<ul>
+<li>1 new map(tdm_valley)</li>
+<li>no respawn on player left fixed</li>
+<li>some bugs in capture the flag fixed</li>
+<li>no player control on running a dedicated server</li>
+<li>respawn shoot fixed</li>
+</ul>
+<p><b>Version 1.08</b></p>
+<ul>
+<li>player shadows added</li>
+<li>enviroment shadows added</li>
+<li>shells added</li>
+</ul>
+<p><b>Version 1.07</b></p>
+<ul>
+<li>2 new modes(team deathmatch, capture the flag)</li>
+<li>3 new maps(ltb_baserun, tdm_hunter, ctf_camp)</li>
+<li>reload bug fixed</li>
+<li>update check fixed</li>
+</ul>
+<p><b>Version 1.06</b></p>
+<ul>
+<li>Kevlar Vest, Helmet, limited ammo in LTSB</li>
+<li>1 new mode(last team standing (buy mode + some other rules))</li>
+<li>5 new maps(dm_dusk, lt_dstorm, dm_complex, lt_4bases, ltb_house)</li>
+<li>no usage of weapons at the end of the round</li>
+<li>simple chat option</li>
+<li>disable/enable music</li>
+</ul>
+<p><b>Version 1.05</b></p>
+<ul>
+<li>hit team-mates with new weapons fixed</li>
+<li>movement engine improved</li>
+<li>players have 3 hit boxes(head,torso,legs)</li>
+</ul>
+<p><b>Version 1.04</b></p>
+<ul>
+<li>map change slower but no player lose</li>
+<li>join team bug fixed</li>
+<li>2 new weapons (MP5, G3)</li>
+<li>new movement engine</li>
+<li>better synchronization</li>
+<li>Chat-bug fixed</li>
+</ul>
+<p><b>Version 1.03</b></p>
+<ul>
+<li>change team command</li>
+<li>admin can change maps</li>
+<li>admin can kick players</li>
+<li>less crashes</li>
+</ul>
+<p><b>Version 1.02</b></p>
+<ul>
+<li>new death gfx added</li>
+<li>some bugfixes in last team standing</li>
+<li>new admin commands</li>
+</ul>
+<p><b>Version 1.01</b></p>
+<ul>
+<li>new faster net engine</li>
+<li>no win bug fixed (last team standing)</li>
+<li>1 new map (dm_desert)</li>
+</ul>
+<p><b>Version 1.00</b></p>
+<ul>
+<li>2 new maps (lt_hideout, dm_city)</li>
+<li>update check</li>
+</ul>
+<p><b>Version 0.99</b></p>
+<ul>
+<li>chat fixed (lobby)</li>
+<li>rebirth-bug in team-mode fixed</li>
+</ul>
+<p><b>Version 0.98</b></p>
+<ul>
+<li>new mode: last team standing</li>
+<li>1 new map (lt_house)</li>
+</ul>
+<p><b>Version 0.97</b></p>
+<ul>
+<li>music</li>
+<li>lan support</li>
+</ul>
+<p><b>Version 0.96</b></p>
+<ul>
+<li>you can run a dedicated server</li>
+<li>1 new map (dm_winter)</li>
+<li>checking max player fixed</li>
+</ul>
+<p><b>Version 0.95</b></p>
+<ul>
+<li>server list</li>
+<li>host games</li>
+<li>hits at close range</li>
+<li>medipacks and grenades added</li>
+<li>new network code</li>
+</ul>
+<p><b>Version 0.94</b></p>
+<ul>
+<li>added lobby</li>
+<li>1 new weapon added (AW50 Sniper)</li>
+<li>new mode: Team-Deathmatch</li>
+<li>1 new map</li>
+</ul>
+<p><b>Version 0.93</b></p>
+<ul>
+<li>game connection should be improved by up to 50%</li>
+<li>removed a lot of laggy events</li>
+<li>score fixed</li>
+<li>blood graphic error fixed</li>
+</ul>
+<p><b>Version 0.9</b></p>
+<ul>
+<li>game release</li>
+</ul>
+<hr>
+<a name="Contact"><p><b><u>Contact</u></b></p></a>
+Please report bugs! Suggestions and comments are welcome!
+
+<p>Mail:
+<a href="mailto:kingson@seekanddread.de">kingson@seekanddread.de</a></p>
+<p>Website:
+<a href="http://www.seekanddread.de">http://www.seekanddread.de</a></p>
+<p>Forum:
+<a href="http://forum.seekanddread.de">Gaming Universe Seek & Dread Forum</a></p>
+</body>
+</html>
