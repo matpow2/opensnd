@@ -37,4 +37,8 @@ WINDOW_HEIGHT = 600
 BORDER_COLOR = (255, 255, 255)
 START_LIVES = 4294967292L
 
+# turns on debugging on my local machine
+import platform
+FAST_CONNECT = platform.node() == 'matpow2'
+
 FRAMES = [get_frame(i) for i in xrange(9)]

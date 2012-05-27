@@ -20,6 +20,7 @@ from objects import *
 from images import *
 from fonts import *
 from sounds import *
+from config import FAST_LOAD
 from PySide.QtCore import Qt
 import os
 
@@ -31,24 +32,24 @@ class Frame5(Frame):
     background = (255, 255, 255)
     
     def initialize(self):
-        values = {0: 0, 1: 0, 2: 0, 3: 0, 4: 2, 5: 0, 6: 0, 8: 0, 9: 0, 10: 0,
-            12: 1, 13: 44, 14: 0, 15: 0}
-        strings = {0: u'127.0.0.1', 1: u'1203'}
-        for k, v in values.iteritems():
-            self.values[k] = v
-        for k, v in strings.iteritems():
-            self.strings[k] = v
-        Ip_46.get_storage()['text'] = u'127.0.0.1'
-        Port_47.get_storage()['text'] = u'1203'
-        GlobalName_6.get_storage()['text'] = u'matpow2'
-        Version_26.get_storage()['text'] = '1.44'
-        add_encryption_key('\xf88\xfa2J\xdb\xae\x91=\xd5.\x99\xb3_y\x7f/U%0C\xd9')
-        self.load_mod('title.mod', 0, 0)
-        self.load_mod('game1.mod', 1, 1)
-        self.load_mod('game2.mod', 2, 2)
-        self.load_mod('game3.mod', 3, 3)
-        self.load_mod('game4.mod', 4, 4)
-
+        if FAST_LOAD:
+            values = {0: 0, 1: 0, 2: 0, 3: 0, 4: 2, 5: 0, 6: 0, 8: 0, 9: 0, 10: 0,
+                12: 1, 13: 44, 14: 0, 15: 0}
+            strings = {0: u'127.0.0.1', 1: u'1203'}
+            for k, v in values.iteritems():
+                self.values[k] = v
+            for k, v in strings.iteritems():
+                self.strings[k] = v
+            Ip_46.get_storage()['text'] = u'127.0.0.1'
+            Port_47.get_storage()['text'] = u'1203'
+            GlobalName_6.get_storage()['text'] = u'matpow2'
+            Version_26.get_storage()['text'] = '1.44'
+            add_encryption_key('\xf88\xfa2J\xdb\xae\x91=\xd5.\x99\xb3_y\x7f/U%0C\xd9')
+            self.load_mod('title.mod', 0, 0)
+            self.load_mod('game1.mod', 1, 1)
+            self.load_mod('game2.mod', 2, 2)
+            self.load_mod('game3.mod', 3, 3)
+            self.load_mod('game4.mod', 4, 4)
         self.create_object(Zeilenumbruch_39, -10, -32)
         self.create_object(ChosedMapWithoutPath_126, 126, -86)
         self.create_object(Info_173, 286, -105)
